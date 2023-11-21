@@ -1,0 +1,11 @@
+.pomodorro-button {
+  cursor: pointer;
+  color: wheat;
+  transform: rotate(0deg);
+  transition: all 0.3s ease-in-out;
+  display: flex;
+}
+.pomodorro-button:hover {
+  transform: scale(1.1);
+  transform: rotate(55deg);
+}

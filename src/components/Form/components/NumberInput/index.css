@@ -1,0 +1,25 @@
+.modal-content-form-input {
+    display: grid;
+    align-items: center;
+    gap: 10px;
+}
+  
+label {
+    color: hsl(236,36%,18%);
+    opacity: 0.4;
+    font-size: 0.75rem;
+}
+  
+.modal-input-numb {
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(229,52%,96%);
+    color: hsl(236,36%,18%);
+    font-size: 0.875rem;
+}
+  
+.modal-input-numb:active.modal-input-numb:focus {
+    border: none;
+}

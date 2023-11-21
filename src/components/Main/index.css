@@ -1,0 +1,10 @@
+.pomodorro-main {
+  border-radius: 50%;
+  padding: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}

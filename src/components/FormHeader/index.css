@@ -1,0 +1,19 @@
+.modal-content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 1px solid hsl(0,2%,89%);
+    padding-left: 0.75rem;
+    padding-right: 2.1rem;
+    padding-bottom: 1rem;
+  }
+  span {
+    cursor: pointer;
+  }
+  .modal-content-header-settings {
+    font-size: 1.75rem;
+  }
+  .modal-content-header-close-btn {
+    color: grey;
+    transition: all 0.5 ease-out;
+  }  

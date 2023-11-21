@@ -1,0 +1,44 @@
+.pomodorro-timer {
+  width: 300px;
+  height: 300px;
+  /* background-image: linear-gradient(to bottom right,hsl(235,49%,11%),hsl(234,33%,27%)); */
+  /* background-image: linear-gradient(to bottom right,hsl(235,49%,11%),hsl(234,33%,27%)); */
+  box-shadow: -50px -50px 100px #272c5a, 50px 50px 100px #121530;
+  /* box-shadow: -50px 50px hsl(234,40%,25%),50px 50px 100px hsl(234,45%,13%); */
+  /* border: 20px solid rgb(248, 114, 114); */
+  /* background: hsl(234,39%,14%); */
+  /* background-image: linear-gradient(to bottom right,hsl(235,49%,11%),hsl(234,33%,27%)); */
+  background: linear-gradient(to bottom right,hsl(235,49%,11%),hsl(234,33%,27%));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  position: relative;
+  padding: 1.5rem;
+}
+.pomodorro-timer-btn {
+  display: flex;
+  justify-content: center;
+}
+.start-btn {
+  letter-spacing: 16px;
+  font-size: 1rem;
+  /* background-image: linear-gradient(to bottom right,hsl(235,49%,11%),hsl(234,33%,27%)); */
+  border: none;
+  text-transform: uppercase;
+  color: #d7e0ff;
+  line-height: 16px;
+  letter-spacing: 11px;
+  transition: transform .2s ease-in-out;
+  /* background-color: #161932; */
+  position: absolute;
+  top: 65%;
+  cursor: pointer;
+}
+.pomodorro-timer-text {
+  font-size: 68px;
+  color: #d7e0ff;
+  position: absolute;
+  top: 30%;
+}

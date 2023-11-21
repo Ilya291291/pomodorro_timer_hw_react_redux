@@ -1,0 +1,144 @@
+.modal-content-form-fieldset {
+    border: none;
+    border-bottom: 1px solid hsl(0,2%, 89%);
+}
+.modal-heading {
+    letter-spacing: 1px;
+}
+  
+.modal-content-checkbox-fieldset {
+    display: flex;
+    align-items: center;
+}
+  
+.modal-content-checkbox-container {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 40px);
+    grid-template-rows: 40px;
+    justify-content: flex-end;
+    margin-right: 1.45rem;
+    gap: 0.3rem;
+}
+.modal-label-font {
+    position: relative;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.4s ease 0s;
+}
+/* .modal-label-font:hover {
+    background-color: aquamarine;
+} */
+  /* .modal-label-font::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid hsl(229,52%,96%);
+    opacity: 0;
+    transform: scale(0.6);
+    transition: transform 0.3s ease 0s, opacity 0.3s ease 0s;
+  } */
+.modal-input-checkbox {
+    opacity: 0;
+    width: 0px;
+    display: none;
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    z-index: 120;
+}
+
+.modal-input-checkbox:checked + .clr1::after, .modal-input-checkbox:checked + .clr2::after, .modal-input-checkbox:checked + .clr3::after {
+    content: '✓';
+}
+
+.modal-input-checkbox:checked + .kumbh, .modal-input-checkbox:checked + .roboto, .modal-input-checkbox:checked + .space-mono {
+    background-color: hsl(236,36%,18%);
+    color: antiquewhite;
+    opacity: 1;
+}
+
+
+.kumbh {
+    font-family: "Kumbh Sans, sans-serif"!important ;
+}
+  
+.roboto {
+    font-family: "Roboto Slab, serif" !important;
+}
+.space-mono {
+    font-family: "Brush Script MT, cursive" !important;
+}
+.modal-label-font {
+    transition: all 0.3s ease-in-out;
+}
+    
+  
+.modal-btn-apply {
+    width: 105px;
+    height: 48px;
+    border-radius: 2rem;
+    background-color: rgb(248, 114, 114);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    transform: translate(-50%, 50%);
+    color: hsl(229,52%,96%);
+}
+.clr1 {
+    background-color: rgb(248, 114, 114);
+    position: relative;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: background-color 0.4s ease 0s;
+}
+  
+.clr2 {
+    background-color: rgb(114, 244, 248);
+    position: relative;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: background-color 0.4s ease 0s;
+}
+.clr3 {
+    background-color: rgb(216, 130, 248);
+    position: relative;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: background-color 0.4s ease 0s;
+}
