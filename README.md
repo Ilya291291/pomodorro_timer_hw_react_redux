@@ -7,13 +7,13 @@ Pomodorro-Timer React-Redux, TypeScript App
 [vercel-link-here]
 
 <a href="https://github.com/topics/react">
-  <img src="https://img.shields.io/badge/Custom-Badge-<blue>" alt="React">
+  <img src="https://img.shields.io/badge/React-<blue>" alt="React">
 </a>
 <a href="https://github.com/topics/redux">
-  <img src="https://img.shields.io/badge/Custom-Badge-<blue>" alt="Redux">
+  <img src="https://img.shields.io/badge/Redux-<blue>" alt="Redux">
 </a>
 <a href="https://github.com/topics/typescript">
-  <img src="https://img.shields.io/badge/Custom-Badge-<blue>" alt="Typescript">
+  <img src="https://img.shields.io/badge/Typescript-<blue>" alt="Typescript">
 </a>
 
 ## React, Redux, TypeScript
